@@ -13,3 +13,8 @@ const filme = {
 }
 
 // respostas aqui ⬇️
+
+console.log("Ator 1:" , filme.elenco[0])
+console.log("Ator 4:" , filme.elenco[filme.elenco.length-1]) //pegar o último item
+console.log(filme.transmissoesHoje)
+console.log(filme.transmissoesHoje[1].horario)
