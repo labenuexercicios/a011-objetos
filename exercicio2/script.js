@@ -13,3 +13,10 @@ const filme = {
 }
 
 // respostas aqui ⬇️
+console.log(`Primeiro Ator: ${filme.elenco[0]}
+Ultimo ator: ${filme.elenco[3]}
+Trasmissões de hoje: ${filme.transmissoesHoje}
+Horario de transmissão Canal Brasil: ${filme.transmissoesHoje[1].horario}
+`
+)
+
