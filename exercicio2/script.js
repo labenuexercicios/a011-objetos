@@ -13,3 +13,18 @@ const filme = {
 }
 
 // respostas aqui ⬇️
+// A)
+const primeiroNome = filme.elenco[0]
+console.log(primeiroNome)
+
+// B)
+const ultimoNome = filme.elenco[3]
+console.log(ultimoNome)
+
+// C)
+const todosHorarios = filme.transmissoesHoje
+console.log(todosHorarios)
+
+// D)
+const horarioCanalBrasil = filme.transmissoesHoje[1]
+console.log(horarioCanalBrasil)
