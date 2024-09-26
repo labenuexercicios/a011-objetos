@@ -13,3 +13,11 @@ const filme = {
 }
 
 // respostas aqui ⬇️
+
+console.log("qual ator interpreta o João Grilo?",filme.elenco[0])
+
+console.log(filme.elenco[3])
+
+console.log(filme.transmissoesHoje)
+
+console.log(filme.transmissoesHoje[1].horario)
